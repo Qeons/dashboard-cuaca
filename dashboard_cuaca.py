@@ -213,7 +213,7 @@ if area_name:
                     st.write("Animasi hujan gagal dimuat.")
 
             # Tombol share WhatsApp di bawah grafik
-            dashboard_url = "https://cuaca.streamlit.app"  # Ganti dengan URL dashboard kamu
+            dashboard_url = "https://dashboard-cuaca-qeons.streamlit.app/"  
             msg = f"Cuaca saat ini di {location_name}:\n{weather_desc}\nSuhu: {temp}°C\n{dashboard_url}"
             wa_link = "https://wa.me/?text=" + urllib.parse.quote(msg)
             st.markdown(f"""
