@@ -159,7 +159,7 @@ if area_name:
                             key="download_btn"
                         )
                     with col_btn2:
-                        dashboard_url = "https://cuaca.streamlit.app"
+                        dashboard_url = "https://dashboard-cuaca-qeons.streamlit.app"
                         msg = f"Cuaca saat ini di {location_name}:\n{weather_desc}\nSuhu: {temp}°C\n{dashboard_url}"
                         wa_link = "https://wa.me/?text=" + urllib.parse.quote(msg)
                         st.markdown(f"""
