@@ -160,7 +160,7 @@ if area_name:
                         )
                     with col_btn2:
                         dashboard_url = "https://dashboard-cuaca-qeons.streamlit.app"
-                        msg = f"Cuaca saat ini di {location_name}:\n{weather_desc}\nSuhu: {temp}°C\n cek info selengkapnya di webstite kami: {dashboard_url}"
+                        msg = f"Cuaca saat ini di {location_name}:\n{weather_desc}\nSuhu: {temp}°C\ncek info selengkapnya di webstite kami: {dashboard_url}"
                         wa_link = "https://wa.me/?text=" + urllib.parse.quote(msg)
                         st.markdown(f"""
                             <a href="{wa_link}" target="_blank" class="btn-style btn-wa" role="button">
